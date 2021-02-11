@@ -50,6 +50,7 @@ class Counter extends React.Component {
                     <RefreshIcon fontSize="inherit" />
                 </IconButton>
                 <h1>Current Count: {this.state.count}</h1>
+                <hr></hr>
             </div>
         )
     }

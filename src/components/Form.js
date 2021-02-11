@@ -10,11 +10,8 @@ class Form extends React.Component {
         super(props);
         this.state = {
             name: '',
-            lastName: ""
+            lastName: ''
         }
-
-        // this.handleChange = this.handleChange.bind(this);
-        // this.handleSubmit = this.handleSubmit.bind(this);
     }
 
     handleChange = (e) => {

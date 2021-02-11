@@ -9,7 +9,6 @@ function App() {
     <div className="App">
       <Container maxWidth="lg">
         <Counter />
-        <hr/>
         <Form />
       </Container>
     </div>
